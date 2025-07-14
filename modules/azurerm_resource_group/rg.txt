@@ -1,0 +1,11 @@
+for_each = {
+
+    rg1 = {name = "london_bridge" , location = "East US"}
+    rg2 = {name = "Delhi_Gate" , location = "East US"}
+    rg3 = {name = "Red-Fort" , location = "Central India"}
+    rg4 = {name = "Lotus_Temple" , location = "Central India"}
+
+}
+
+  name  = each.value.name
+  location = each.value.location
